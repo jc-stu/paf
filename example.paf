@@ -1,0 +1,38 @@
+\<文本块的名称 1970.01.01 tags=example,foo
+
+这是一段示例文本。\[1\]
+
+插入一张有趣的图片\[=https://www.fsfla.org/ikiwiki/selibre/linux-libre/stux.jpg\]
+
+下面是C语言的"hello world"程序：
+\{ name="hello world" language=c
+#include <stdio.h>
+
+int main(int argc, char **argv)
+{
+    printf("hello, world\n");
+    return 0;
+}
+\}
+
+我有一段神奇的代码：\{\}，可惜这里太小写不下。
+
+\(扩展块在当前版本中没有任何作用
+\)
+\<. markdown
+# 震惊！PAF竟然是Markdown套皮
+
+为了在文本中表示 `\\<`，需要写成 `\\\<`
+
+有专家评论道：
+
+> 这究竟是人性的泯灭，还是道德的沦丧？！
+
+\>
+\>
+
+\[
+1=./example.paf
+\<这样做没有任何好处\>
+多余的条目=扩展块在当前版本中没有任何作用
+\]
